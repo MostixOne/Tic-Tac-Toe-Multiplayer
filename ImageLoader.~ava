@@ -1,0 +1,22 @@
+
+
+import java.awt.Image;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class ImageLoader {
+  
+  static Image bx, bo;
+
+  public ImageLoader() {
+    try {
+      bx = ImageIO.read(new File("img/x.png"));
+      bo = ImageIO.read(new File("img/o.png"));
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+}

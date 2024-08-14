@@ -1,0 +1,33 @@
+﻿[Files]
+File0=C:\Users\Admin\Pictures\Saved Pictures\Tic-Tac-Toe\Coins.java
+
+[Box:  - Coins]
+X=670
+Y=142
+ShowParameter=4
+ShowIcons=2
+FontSize=13
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=2
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=13
+ShowObjectDiagram=0
+
+[Interactive]
+I0=
+
+[Window]
+Left=52
+Top=52
+Width=1255
+Height=382
+

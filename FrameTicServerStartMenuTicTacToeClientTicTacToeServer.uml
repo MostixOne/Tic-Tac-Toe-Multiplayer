@@ -1,0 +1,107 @@
+﻿[Files]
+File0=E:\Tic-Tac-Toe_multi\FrameTicServer.java
+File1=E:\Tic-Tac-Toe_multi\StartMenu.java
+File2=E:\Tic-Tac-Toe_multi\TicTacToeClient.java
+
+[Box:  - FrameTicServer]
+X=683
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Box:  - FrameTicServer$rgbwonder]
+X=586
+Y=651
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Box:  - FrameTicServer$rgbwonder_Stop]
+X=851
+Y=651
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Box:  - Game]
+X=334
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Box:  - Game$Player]
+X=302
+Y=651
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Box:  - StartMenu]
+X=1039
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Box:  - TicTacToeClient]
+X=20
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Box:  - TicTacToeClient$Qua]
+X=72
+Y=651
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=11
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=42
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=11
+ShowObjectDiagram=0
+
+[Connections]
+V0=FrameTicServer#FrameTicServer$rgbwonder#AssociationDirected####0#0#0###0#0
+V1=FrameTicServer#FrameTicServer$rgbwonder_Stop#AssociationDirected####0#0#0###0#0
+V2=Game#Game$Player#AssociationDirected####0#0#0###0#0
+V3=TicTacToeClient#TicTacToeClient$Qua#AssociationDirected####0#0#0###0#0
+
+[Interactive]
+I0=
+

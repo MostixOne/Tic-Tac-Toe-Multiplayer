@@ -1,0 +1,47 @@
+object DB_Erstellen: TFGUIForm
+  Left = 1209
+  Top = 105
+  BorderIcons = [biSystemMenu]
+  Caption = 'DB_Erstellen'
+  ClientHeight = 57
+  ClientWidth = 195
+  Color = clBtnFace
+  ParentFont = True
+  FormStyle = fsStayOnTop
+  OldCreateOrder = True
+  Position = poDesigned
+  ShowHint = True
+  Visible = True
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  FrameType = 5
+  Resizable = False
+  Undecorated = False
+  Background = clBtnFace
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Ladenbar: TJProgressBar
+    Tag = 16
+    Left = 10
+    Top = 13
+    Width = 177
+    Height = 33
+    Hint = 'jProgressBar1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 13416611
+    Background = 15658734
+    Maximum = 100
+    Minimum = 0
+    Value = 0
+    Orientation = HORIZONTAL
+    ProgressString = '0 %'
+    StringPainted = True
+    BorderPainted = True
+    Indeterminate = False
+  end
+end
